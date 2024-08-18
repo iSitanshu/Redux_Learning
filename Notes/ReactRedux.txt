@@ -1,0 +1,18 @@
+React Redux
+
+1. Look carefully on the data flow
+2. Redux - kehta hai state change nhi honi chahiye
+3. Create a function reducer to change the state
+4. Redux-Toolkit - more abstraction - built-in middleware - redux thunk included
+
+
+1. Create a store - act as a global variable
+2. Make reducer(Object) for change the store information - control the state
+3. useSelector and useDispatch
+
+
+Create store
+1. In store.js Configure Store from reduxjs/Toolkit and export const store = ConfigureStore({})
+2. In feature in Todo in TodoSlice.js 
+createSlice
+createReducer
